@@ -25,22 +25,46 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode"
   ],
 
   tailwindcss: {
     config: {
       theme: {
+        darkSelector: ".dark-mode",
         extend: {
           colors: {
             primary: {
-              100: "#F59724",
-              900: "#EC6611"
+              default: "#F59724",
+              dark: "#EC6611"
             },
-            secondary: "#4C8EC7",
-            gray: "#3C3C3B"
+            secondary: "#4C8EC7"
           }
         }
+      },
+      variants: {
+        backgroundColor: [
+          "dark",
+          "dark-hover",
+          "dark-group-hover",
+          "dark-even",
+          "dark-odd",
+          "hover",
+          "responsive"
+        ],
+        borderColor: [
+          "dark",
+          "dark-focus",
+          "dark-focus-within",
+          "hover",
+          "responsive"
+        ],
+        textColor: ["dark", "dark-hover", "dark-active", "hover", "responsive"]
+      },
+      plugins: [require("tailwindcss-dark-mode")()],
+      purgeCSS: {
+        whitelist: ["dark-mode"]
       }
     }
   },
