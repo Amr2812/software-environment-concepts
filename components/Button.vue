@@ -5,6 +5,7 @@
   >
     <slot name="icon"></slot>
     {{ text }}
+    <slot name="icon-right"></slot>
   </button>
 </template>
 
