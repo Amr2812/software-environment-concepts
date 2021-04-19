@@ -2,11 +2,9 @@
   <div>
     <Intro />
     <Features />
-    <hr>
+    <hr />
     <Search />
+    <hr>
+    <Modules />
   </div>
 </template>
-
-<script>
-export default {};
-</script>
