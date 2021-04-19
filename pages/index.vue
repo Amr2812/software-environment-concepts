@@ -2,6 +2,8 @@
   <div>
     <Intro />
     <Features />
+    <hr>
+    <Search />
   </div>
 </template>
 
