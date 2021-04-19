@@ -6,13 +6,13 @@
           <div class="flex items-center justify-between h-16">
             <div class="flex items-center">
               <nuxt-link class="flex-shrink-0" to="/">
-                <h1 class="text-2xl font-bold text-primary-default">
+                <h1 class="text-xl md:text-2xl lg:text-3xl font-bold text-primary-dark dark:text-primary-default">
                   Software Env Expressions
                 </h1>
               </nuxt-link>
             </div>
-            <div class="mr-2 flex">
-              <button class="flex" @click="changeMode">
+            <div class="mr-2 flex text-secondary">
+              <button class="btn flex" @click="changeMode">
                 <svg
                   v-if="btnLabel === 'light'"
                   class="w-6 h-6"
@@ -43,7 +43,7 @@
                     d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
                   ></path>
                 </svg>
-                <span class="pl-1">{{ btnLabel }}</span>
+                <span class="pl-1 capitalize">{{ btnLabel }}</span>
               </button>
             </div>
           </div>
