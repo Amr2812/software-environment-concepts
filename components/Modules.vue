@@ -9,7 +9,7 @@
         :key="i"
         class="capitalize text-primary-default font-extrabold text-xl mb-2"
       >
-        <nuxt-link :to="module.path">{{ module.slug }}</nuxt-link>
+        <nuxt-link :to="module.path">{{ module.title }}</nuxt-link>
       </li>
     </ul>
   </section>
@@ -24,7 +24,6 @@ export default {
   },
   async fetch() {
     this.modules = await this.$content().sortBy("createdAt").fetch();
-    console.log(this.modules);
   },
 };
 </script>

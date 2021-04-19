@@ -73,6 +73,10 @@ export default {
     }
   },
 
+  colorMode: {
+    preference: "dark"
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa

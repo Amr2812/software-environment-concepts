@@ -1,3 +1,3 @@
 ---
-title: Frontend (client-side) Development
+title: Frontend Web (client-side) Development
 ---

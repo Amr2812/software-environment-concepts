@@ -14,6 +14,8 @@ export default {
 
     if (colorMode) {
       this.$colorMode.preference = colorMode;
+    } else {
+      this.$colorMode.preference = "dark";
     }
   },
 };
