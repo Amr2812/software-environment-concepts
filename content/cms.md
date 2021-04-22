@@ -1,3 +1,3 @@
 ---
-title: Cntent Managment Systems (CMS)
+title: Content Managment Systems (CMS)
 ---

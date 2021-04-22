@@ -4,7 +4,7 @@
       <h1
         class="text-3xl lg:text-5xl font-bold text-primary-dark capitalize mb-4"
       >
-        software environment expressions
+        software environment concepts
       </h1>
       <p class="mb-6">
         If you are new to software engineering or you are working in a software

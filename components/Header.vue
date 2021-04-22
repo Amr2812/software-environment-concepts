@@ -7,7 +7,7 @@
             <div class="flex items-center">
               <nuxt-link class="flex-shrink-0" to="/">
                 <h1 class="text-xl md:text-2xl lg:text-3xl font-bold text-primary-dark dark:text-primary-default">
-                  Software Env Expressions
+                  Software Env Concepts
                 </h1>
               </nuxt-link>
             </div>
