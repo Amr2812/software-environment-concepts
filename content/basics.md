@@ -3,7 +3,7 @@ title: Software Basics
 sort: 1
 ---
 
-### [Programming Language:](# Programming-Language)
+### [Programming Language:](#Programming-Language)
 
 A programming language is a set of commands, instructions, and other syntax use to create a software program. Programmers use "high-level languages" to write programs. This code can be compiled into a "low-level language," which is understood by the computer hardware. Example of high-level languages include C++, C#, JavaScript, Python, etc...
 

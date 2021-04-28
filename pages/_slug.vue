@@ -91,4 +91,10 @@ export default {
 a {
   @apply text-primary-default font-bold;
 }
+h3 {
+  @apply text-2xl mt-5 mb-2;
+}
+h4 {
+  @apply text-xl font-bold my-2;
+}
 </style>
