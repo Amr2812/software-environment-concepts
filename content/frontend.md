@@ -1,5 +1,6 @@
 ---
 title: Frontend Web (client-side) Development
+sort: 2
 ---
 
 ### [Front End Development:](#Front-end)

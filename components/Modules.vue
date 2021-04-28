@@ -23,7 +23,7 @@ export default {
     };
   },
   async fetch() {
-    this.modules = await this.$content().sortBy("createdAt").fetch();
+    this.modules = await this.$content().sortBy("sort").fetch();
   },
 };
 </script>

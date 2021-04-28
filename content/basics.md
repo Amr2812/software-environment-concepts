@@ -1,5 +1,6 @@
 ---
 title: Software Basics
+sort: 1
 ---
 
 ### [Programming Language:](# Programming-Language)
