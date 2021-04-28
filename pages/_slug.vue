@@ -4,7 +4,10 @@
       <h1 class="text-center text-secondary text-4xl my-5 font-extrabold">
         {{ page.title }}
       </h1>
-      <nuxt-content :document="page" class="prose" />
+      <nuxt-content
+        :document="page"
+        class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl"
+      />
     </article>
     <hr class="my-6" />
     <div class="flex justify-between">
@@ -88,20 +91,23 @@ export default {
 </script>
 
 <style>
-a {
+.prose {
+  max-width: 1800px !important;
+}
+.prose a {
   @apply text-primary-default no-underline !important;
 }
-a:hover {
+.prose a:hover {
   @apply underline !important;
 }
-h3 {
-  @apply text-2xl mt-5 mb-2 text-primary-default font-bold capitalize !important;
+.prose h3 {
+  @apply text-2xl mt-5 mb-2 text-primary-default font-extrabold capitalize !important;
 }
-h4 {
+.prose h4 {
   @apply text-xl font-bold my-2 !important;
 }
 .icon.icon-link::before {
-  content: '#';
+  content: "#";
   margin-right: 7px;
 }
 </style>

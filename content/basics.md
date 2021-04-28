@@ -3,19 +3,19 @@ title: Software Basics
 sort: 1
 ---
 
-### [Programming Language:](#Programming-Language)
+### Programming Language
 
 A programming language is a set of commands, instructions, and other syntax use to create a software program. Programmers use "high-level languages" to write programs. This code can be compiled into a "low-level language," which is understood by the computer hardware. Example of high-level languages include C++, C#, JavaScript, Python, etc...
 
-### [Algorithms:](#Algorithms)
+### Algorithms
 
 An algorithm is a set of detailed step-by-step instructions to complete a task
 
-### [Data Structure:](#Data-Structure)
+### Data Structure
 
 Data Structure can be defined as the group of data elements which provides an efficient way of storing and organising data in the software so that it can be used efficiently. Some examples of Data Structures are arrays, Linked List, Stack, Queue, etc
 
-### [Application Programming Interface (API):](#Api)
+### Application Programming Interface (API)
 
 An API is the bridge between the [client-side](/frontend) and the [server-side](/backend).
 
@@ -79,7 +79,7 @@ When someone enters your domain name in a browser, the domain name is translated
 
 A version control system is a kind of software that helps the developer team to efficiently communicate and manage(track) all the changes that have been made to the source code along with the information like who made and what change has been made.
 
-The Most popular Version Control System Is [Git](/git).
+The Most popular Version Control System Is [Git](#git--github).
 
 ### Git / GitHub
 

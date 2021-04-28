@@ -14,7 +14,7 @@
             <div class="mr-2 flex text-secondary">
               <button class="btn flex" @click="changeMode">
                 <svg
-                  v-if="btnLabel === 'light'"
+                  v-if="btnLabel === 'dark'"
                   class="w-6 h-6"
                   fill="none"
                   stroke="currentColor"
