@@ -4,7 +4,7 @@
       <h1 class="text-center text-secondary text-4xl my-5 font-extrabold">
         {{ page.title }}
       </h1>
-      <nuxt-content :document="page" />
+      <nuxt-content :document="page" class="prose" />
     </article>
     <hr class="my-6" />
     <div class="flex justify-between">
@@ -89,12 +89,19 @@ export default {
 
 <style>
 a {
-  @apply text-primary-default font-bold;
+  @apply text-primary-default no-underline !important;
+}
+a:hover {
+  @apply underline !important;
 }
 h3 {
-  @apply text-2xl mt-5 mb-2;
+  @apply text-2xl mt-5 mb-2 text-primary-default font-bold !important;
 }
 h4 {
-  @apply text-xl font-bold my-2;
+  @apply text-xl font-bold my-2 !important;
+}
+.icon.icon-link::before {
+  content: '#';
+  margin-right: 7px;
 }
 </style>

@@ -66,7 +66,10 @@ export default {
         ],
         textColor: ["dark", "dark-hover", "dark-active", "hover", "responsive"]
       },
-      plugins: [require("tailwindcss-dark-mode")()],
+      plugins: [
+        require("tailwindcss-dark-mode")(),
+        require("@tailwindcss/typography")
+      ],
       purgeCSS: {
         whitelist: ["dark-mode"]
       }
