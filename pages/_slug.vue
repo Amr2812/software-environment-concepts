@@ -95,7 +95,7 @@ a:hover {
   @apply underline !important;
 }
 h3 {
-  @apply text-2xl mt-5 mb-2 text-primary-default font-bold !important;
+  @apply text-2xl mt-5 mb-2 text-primary-default font-bold capitalize !important;
 }
 h4 {
   @apply text-xl font-bold my-2 !important;
