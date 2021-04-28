@@ -59,3 +59,35 @@ RSS files can be automatically updated.
 RSS allows personalized views for different sites.
 RSS is written in XML.
 RSS is mostly used for Blogs and News Websites.
+
+### [Domain Name:](#Domain)
+
+Domain name is the address of your website that people type in the browser’s URL bar to visit your website.
+
+In other words, if your website was a house, then your domain name will be its address.
+
+### [Hosting:](#Hosting)
+
+Web hosting is the place where all the files of your website are stored. It is like the home of your website where it actually lives.
+
+A good way to think about this is if the domain name was the address of your house, then web hosting is the actual house that address points to. All websites on the internet, need web hosting.
+
+When someone enters your domain name in a browser, the domain name is translated into the IP address of your web hosting company’s computer (server) or yours. This computer contains your website’s files, and it sends those files back to the users’ browsers.
+
+### [version control system:](#version-control-system)
+
+A version control system is a kind of software that helps the developer team to efficiently communicate and manage(track) all the changes that have been made to the source code along with the information like who made and what change has been made.
+
+The Most popular Version Control System Is [Git](/git).
+
+### [Git / GitHub:](#Git)
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+There are Multiple repo (folder) hosting services like GitHub (The Most Popular), GitLab and BitBucket.
+
+### [Package Managers:](#package-managers)
+
+A package manager is a tool to create project environments and easily import external dependencies (packages)
+
+Examples of package managers are NPM, Yarn, Composer and Chocolatey.
