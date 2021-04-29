@@ -36,21 +36,11 @@ export default {
         this.articlesFromSearch = [];
         return;
       }
-      const articlesFromTitleSearch = await this.$content()
+      this.articlesFromSearch = await this.$content()
         .only(["title", "slug"])
         .limit(3)
-        .search("title", query)
+        .search(query)
         .fetch();
-
-      if (articlesFromTitleSearch) {
-        this.articlesFromSearch = articlesFromTitleSearch;
-      } else {
-        this.articlesFromSearch = await this.$content()
-          .only(["title", "slug"])
-          .limit(3)
-          .search(query)
-          .fetch();
-      }
     },
   },
 };

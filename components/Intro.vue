@@ -26,11 +26,11 @@
         ></Button>
       </div>
     </div>
-    <div class="md:col-span-1">
+    <div class="md:col-span-1 self-center">
       <img
-        src="/placeholder.png"
+        src="/logo.svg"
         alt="Book Cover"
-        class="w-50 h-80 sm:h-70 mx-auto object-contain"
+        class="h-40 md:h-50 mx-auto object-contain"
       />
     </div>
   </section>
