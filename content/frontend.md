@@ -5,7 +5,7 @@ sort: 2
 
 ### Front End Development
 
-Front End Development is about developing The Software's (web, mobile, etc...) User Interface, getting and displaying data, handles users [authorization](/basics#authorization), etc..
+Front End Development is about developing The Software's (web, mobile, etc...) User Interface, getting and displaying data, handles users' UI [authorization](/basics#authorization), etc..
 
 The Code that the Frontend developer write runs on the device's Operating System or Browser.
 
