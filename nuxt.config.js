@@ -142,6 +142,9 @@ export default {
       short_name: "Software Concepts",
       lang: "en",
       background_color: "#1A202C"
+    },
+    workbox: {
+      offlineAssets: ["/logo.svg"]
     }
   },
 
