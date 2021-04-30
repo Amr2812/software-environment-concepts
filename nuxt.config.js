@@ -16,7 +16,7 @@ export default {
       {
         hid: "twitter:title",
         name: "twitter:title",
-        content: "Book Store"
+        content: "Software Environment Concepts"
       },
       {
         hid: "twitter:description",
@@ -37,9 +37,17 @@ export default {
         hid: "og:description",
         property: "og:description",
         content: process.env.npm_package_description
+      },
+      {
+        name: "theme-color",
+        content: "#1A202C"
+      },
+      {
+        name: "msapplication-navbutton-color",
+        content: "#1A202C"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/logo.svg" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/logo.png" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
