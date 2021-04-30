@@ -1,6 +1,7 @@
 {
   "name": "software-environment-concepts",
   "version": "1.0.0",
+  "description": "Glossary eBook for software expressions where you can carry everywhere offline and online",
   "private": true,
   "scripts": {
     "dev": "nuxt",

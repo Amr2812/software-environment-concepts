@@ -10,6 +10,10 @@
 <script>
 export default {
   mounted() {
+    if (window.location.protocol === "http:") {
+      window.location.href.replace("http://", "https://");
+    }
+
     const colorMode = localStorage.getItem("nuxt-color-mode");
 
     if (colorMode) {

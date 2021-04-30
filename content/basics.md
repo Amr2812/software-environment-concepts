@@ -55,7 +55,7 @@ It is used mostly on the web and data transfer.
 
 Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
 
-XML is used mostly for [Android Development](/mobile-dev#android) and web services like [RSS feed](#rss-feed) and [SOAP](/backend#soap).
+XML is used mostly for [Android Development](/mobile#android) and web services like [RSS feed](#rss-feed) and [SOAP](/backend#soap).
 
 ### RSS feed
 

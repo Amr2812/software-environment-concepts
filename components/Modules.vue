@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="modules">
     <h3 class="text-center text-3xl my-8 text-primary-default font-extrabold">
       Modules
     </h3>

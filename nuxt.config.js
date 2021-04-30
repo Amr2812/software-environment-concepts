@@ -8,9 +8,38 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      {
+        hid: "description",
+        name: "description",
+        content: process.env.npm_package_description
+      },
+      {
+        hid: "twitter:title",
+        name: "twitter:title",
+        content: "Book Store"
+      },
+      {
+        hid: "twitter:description",
+        name: "twitter:description",
+        content: process.env.npm_package_description
+      },
+      {
+        hid: "twitter:image",
+        name: "twitter:image",
+        content: "/logo.svg"
+      },
+      {
+        hid: "og:title",
+        property: "og:title",
+        content: "Software Env Concepts"
+      },
+      {
+        hid: "og:description",
+        property: "og:description",
+        content: process.env.npm_package_description
+      }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/logo.svg" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -90,8 +119,21 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    meta: {
+      mobileAppIOS: true,
+      appleStatusBarStyle: "black",
+      favicon: "/icon.png",
+      name: "Software Environment Concepts",
+      author: "Amr Elmohamady",
+      theme_color: "#F59724",
+      twitterCard: "summary",
+      twitterSite: "AmrElmohamady2"
+    },
     manifest: {
-      lang: "en"
+      name: "Software Environment Concepts",
+      short_name: "Software Concepts",
+      lang: "en",
+      background_color: "#1A202C"
     }
   },
 

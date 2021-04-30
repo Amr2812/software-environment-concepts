@@ -2,7 +2,7 @@
   <section class="mt-20">
     <a
       target="_blank"
-      href="#"
+      href="https://github.com/Amr2812/software-environment-concepts/"
       class="btn flex items-center block px-4 text-gray-700 dark:text-gray-100 mb-6"
     >
       <svg
@@ -23,8 +23,8 @@
       </span>
     </a>
     <button
-      href="#"
       class="btn flex items-center block px-4 py-2 text-gray-700 dark:text-gray-100 mb-6 text-left"
+      @click="install"
     >
       <svg
         class="w-20 h-20"
@@ -74,3 +74,13 @@
     </a>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    install() {
+      document.getElementById("installBtn").click();
+    }
+  }
+}
+</script>
