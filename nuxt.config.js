@@ -121,9 +121,24 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
-    // https://go.nuxtjs.dev/content
-    "@nuxt/content"
+    // '@nuxtjs/sitemap'
+    "@nuxt/content",
+    "@nuxtjs/sitemap"
   ],
+
+  sitemap: {
+    hostname: "https://softwareconcepts.vercel.app/",
+    gzip: true,
+    routes: async () => {
+      let routes = [];
+      const { $content } = require("@nuxt/content");
+      const modules = await $content().fetch();
+      for (const module of modules) {
+        routes.push(`/${module.slug}`);
+      }
+      return routes;
+    }
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
