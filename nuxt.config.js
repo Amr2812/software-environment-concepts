@@ -14,6 +14,11 @@ export default {
         content: process.env.npm_package_description
       },
       {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
         hid: "twitter:title",
         name: "twitter:title",
         content: "Software Environment Concepts"
@@ -154,8 +159,8 @@ export default {
       name: "Software Environment Concepts",
       author: "Amr Elmohamady",
       theme_color: "#F59724",
-      twitterCard: "summary",
-      twitterSite: "AmrElmohamady2"
+      twitterCard: "summary_large_image",
+      twitterSite: "@AmrElmohamady2"
     },
     manifest: {
       name: "Software Environment Concepts",
