@@ -26,7 +26,7 @@ export default {
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "/logo.svg"
+        content: "/icon.png"
       },
       {
         hid: "og:title",
@@ -37,6 +37,11 @@ export default {
         hid: "og:description",
         property: "og:description",
         content: process.env.npm_package_description
+      },
+      {
+        hid: "og:image",
+        name: "og:image",
+        content: "/icon.png"
       },
       {
         name: "theme-color",
