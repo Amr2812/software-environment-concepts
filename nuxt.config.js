@@ -26,7 +26,7 @@ export default {
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "/icon.png"
+        content: "/meta.jpg"
       },
       {
         hid: "og:title",
@@ -41,7 +41,7 @@ export default {
       {
         hid: "og:image",
         name: "og:image",
-        content: "/icon.png"
+        content: "/meta.jpg"
       },
       {
         name: "theme-color",
