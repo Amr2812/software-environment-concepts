@@ -1,8 +1,11 @@
+
+<p align="center">
 <a href="https://softwareconcepts.vercel.app/">
-  <img height=100 style="margin: auto;display: block;" src="/static/logo.svg"/>
-  <h1 style="text-align:center;color:#EC6611;">Software Environment Concepts</h1>
+  <img height=100 src="/static/logo.svg"/>
+  <h1>Software Environment Concepts</h1>
 </a>
-<p align="center" style="color: #4C8EC7;">
+</p>
+<p align="center">
   <strong>Understand Software Concepts</strong>
 </p>
 
