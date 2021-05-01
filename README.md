@@ -3,10 +3,7 @@
 <a href="https://softwareconcepts.vercel.app/">
   <img height=100 src="/static/logo.svg"/>
   <h1>Software Environment Concepts</h1>
-</a>
-</p>
-<p align="center">
-  <strong>Understand Software Concepts</strong>
+  <strong>Understand Software Concepts</strong></a>
 </p>
 
 ---
