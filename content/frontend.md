@@ -24,9 +24,13 @@ JavaScript (JS) is the most used programming language in the world. JavaScript i
 It is used for:
 
 - Adding interactivity and Building web pages
-- Building [Single-Page Applications (SPA)](#spa)
+
+- Building [Single-Page Applications (SPA)](#single-page-applications-spa)
+
 - Server Side Development
+
 - Building Mobile Apps
+
 - other...
 
 ### CSS Framework
@@ -79,8 +83,7 @@ Compared to a traditional SPA (Single-Page Application), the advantage of SSR pr
 
 - Note that as of now, Google and Bing can index synchronous JavaScript applications just fine. Synchronous being the key word there. If your app starts with a loading spinner, then fetches content via Ajax, the crawler will not wait for you to finish. This means if you have content fetched asynchronously on pages where SEO is important, SSR might be necessary.
 
-- Faster time-to-content, especially on slow internet or slow devices. Server-rendered markup doesn't need to wait until all JavaScript has been downloaded and executed to be displayed, so your user will see a fully-rendered page sooner. This generally results in better user experience, and can be critical for applications where time-to-content is directly associated with
-  conversion rate.
+- Faster time-to-content, especially on slow internet or slow devices. Server-rendered markup doesn't need to wait until all JavaScript has been downloaded and executed to be displayed, so your user will see a fully-rendered page sooner. This generally results in better user experience, and can be critical for applications where time-to-content is directly associated with conversion rate.
 
 Example are Next.js for React, Nuxt.js for Vue and Universal Angular.
 
