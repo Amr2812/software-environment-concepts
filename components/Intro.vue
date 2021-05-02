@@ -17,10 +17,11 @@
       </p>
       <div class="flex justify-center md:justify-start">
         <a href="#modules">
-          <Button
+          <button
             class="bg-primary-dark focus:ring-primary-dark ring-offset-2 mr-2 text-gray-100"
-            :text="'Read Now For Free'"
-          ></Button>
+          >
+            Read Now For Free
+          </button>
         </a>
         <button
           class="text-secondary focus:ring-secondary"
