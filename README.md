@@ -1,10 +1,13 @@
-
 <p align="center">
 <a href="https://softwareconcepts.vercel.app/">
   <img height=100 src="/static/logo.svg"/>
   <h1>Software Environment Concepts</h1>
   <strong>Understand Software Concepts</strong></a>
 </p>
+
+<a href="https://vercel.com?utm_source=amr2812&utm_campaign=oss">
+  <img src="/static/powered-by-vercel.svg" alt="powered by vercel"/>
+</a>
 
 ---
 
