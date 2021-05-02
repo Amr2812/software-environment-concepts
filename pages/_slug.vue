@@ -6,7 +6,7 @@
       </h1>
       <nuxt-content
         :document="page"
-        class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl"
+        class="prose lg:prose-lg xl:prose-xl"
       />
     </article>
     <hr class="my-6" />
@@ -105,6 +105,9 @@ export default {
 }
 .prose h4 {
   @apply text-xl font-bold my-2 !important;
+}
+.prose strong {
+  @apply text-secondary;
 }
 .icon.icon-link::before {
   content: "#";

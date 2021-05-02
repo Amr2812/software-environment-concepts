@@ -103,6 +103,8 @@ Examples of package managers are NPM, Yarn, Composer and Chocolatey.
 
 It is the process of identifying users and validating who they claim to be. One of the most common and obvious factors to authenticate identity is a password. If the user name matches the password credential, it means the identity is valid, and the system grants access to the user.
 
+You can learn more about [Authentication Types in this section](/backend#authentication-types)
+
 ### Authorization
 
 Authorization happens after a user’s identity has been successfully authenticated. It is about offering full or partial access rights to resources like database, funds, and other critical information to get the job done.

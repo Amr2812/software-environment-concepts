@@ -15,10 +15,7 @@ If you are new to software engineering or you are working in a software company 
 Software Environment Concepts App was built using:
 
 - Vue.js
-- Nuxt
-- Nuxt Content Module
-- Nuxt PWA Module
-- Nuxt Sitemap Module
+- Nuxt.js
 - TailwindCSS
 
 ## Contributions
@@ -58,17 +55,17 @@ commit messages are standardized:
 
 ## Modules
 
-| Module                           |  Description  |
-| :------------------------------- | :-----------: |
-| [Basics](content/basics.md)      |       ✔       |
-| [Frontend](content/frontend.md)  |       ✔       |
-| [Backend](content/backend.md)    | Not Completed |
-| [Databases](content/databses.md) |  Nothing Yet  |
-| [CMS](content/cms.md)            |  Nothing Yet  |
-| [Mobile](content/mobile.md)      |  Nothing Yet  |
-| [Desktop](content/desktop.md)    |  Nothing Yet  |
-| [Servers](content/servers.md)    |  Nothing Yet  |
-| [Cloud](content/cloud.md)        |  Nothing Yet  |
+| Module                           | Description |
+| :------------------------------- | :---------: |
+| [Basics](content/basics.md)      |      ✔      |
+| [Frontend](content/frontend.md)  |      ✔      |
+| [Backend](content/backend.md)    |      ✔      |
+| [Databases](content/databses.md) | Nothing Yet |
+| [CMS](content/cms.md)            | Nothing Yet |
+| [Mobile](content/mobile.md)      | Nothing Yet |
+| [Desktop](content/desktop.md)    | Nothing Yet |
+| [Servers](content/servers.md)    | Nothing Yet |
+| [Cloud](content/cloud.md)        | Nothing Yet |
 
 ## How to run locally
 
