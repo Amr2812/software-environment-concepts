@@ -1,5 +1,5 @@
 ---
-title: Content Managment Systems (CMS)
+title: Content Management Systems (CMS)
 sort: 5
 ---
 
