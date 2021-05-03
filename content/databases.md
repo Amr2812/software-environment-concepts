@@ -97,3 +97,4 @@ A multimodel database is a data processing platform that supports multiple data 
 
 Examples are FunaDB and ArangoDB.
 
+> Note: There are dozens of database types but those was from the most popular
