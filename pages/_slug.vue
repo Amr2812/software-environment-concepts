@@ -57,7 +57,7 @@ export default {
     const page = await $content(params.slug).fetch();
     const [prev, next] = await $content()
       .only(["slug"])
-      .sortBy("createdAt", "asc")
+      .sortBy("sort")
       .surround(params.slug)
       .fetch();
 
