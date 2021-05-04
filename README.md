@@ -64,7 +64,7 @@ commit messages are standardized:
 | [Frontend](content/frontend.md)  |      ✔      |
 | [Backend](content/backend.md)    |      ✔      |
 | [Databases](content/databses.md) |      ✔      |
-| [CMS](content/cms.md)            | Nothing Yet |
+| [CMS](content/cms.md)            |      ✔      |
 | [Mobile](content/mobile.md)      | Nothing Yet |
 | [Desktop](content/desktop.md)    | Nothing Yet |
 | [Servers](content/servers.md)    | Nothing Yet |
