@@ -41,3 +41,5 @@ Cross-platform dev approach uses a native rendering engine. The codebase written
 **Tools to use:**
 
 React Native, Flutter, Xamrin and etc...
+
+> Note: There are Native and Cross-Platform for Desktop Development also but with different technologies
