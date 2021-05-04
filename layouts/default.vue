@@ -30,8 +30,11 @@ export default {
 .container {
   @apply min-h-screen flex justify-center items-center mx-auto px-3;
 }
-button {
+button, .btn {
   @apply py-2 px-4 transition ease-in duration-100 text-center text-base font-semibold focus:outline-none focus:ring-2 rounded;
+}
+a {
+  @apply focus:outline-none focus:ring-2 rounded;
 }
 p {
   @apply text-gray-600 dark:text-gray-400;
