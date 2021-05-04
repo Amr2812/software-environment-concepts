@@ -45,7 +45,7 @@ Traditional CMS’s are still fantastic systems that work for a variety of deplo
 
 ### Headless CMS
 
-A headless CMS differentiates itself by not connecting directly with a front-end at all. While traditional CMS’ aim to be a single solution to managing both the content and the front-end, a headless CMS deals strictly with the content. Once created and edited, content is published via an application programming interface (API) and that’s it. The headless CMS has no impact or input on the front-end. This provides the flexibility to get your content out in as many ways as possible regardless of how it’s presented.
+A headless CMS like contentfull or strapi differentiates itself by not connecting directly with a front-end at all. While traditional CMS’ aim to be a single solution to managing both the content and the front-end, a headless CMS deals strictly with the content. Once created and edited, content is published via an application programming interface (API) and that’s it. The headless CMS has no impact or input on the front-end. This provides the flexibility to get your content out in as many ways as possible regardless of how it’s presented.
 
 If it helps, think of the headless CMS like an author writing a book. The author, headless CMS, is providing the content while the publisher, website, formats and delivers the content to the public via hardback book, e-book, etc… The consumption methods change but the content is consistent.
 
