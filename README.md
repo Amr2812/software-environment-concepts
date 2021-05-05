@@ -65,9 +65,7 @@ commit messages are standardized:
 | [Backend](content/backend.md)    |      ✔      |
 | [Databases](content/databses.md) |      ✔      |
 | [CMS](content/cms.md)            |      ✔      |
-| [Mobile](content/mobile.md)      | Nothing Yet |
-| [Desktop](content/desktop.md)    | Nothing Yet |
-| [Servers](content/servers.md)    | Nothing Yet |
+| [Mobile](content/mobile.md)      |      ✔      |
 | [Cloud](content/cloud.md)        | Nothing Yet |
 
 ## How to run locally
