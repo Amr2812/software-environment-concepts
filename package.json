@@ -19,7 +19,7 @@
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.0.5",
     "@nuxtjs/tailwindcss": "^4.0.1",
-    "postcss": "^8.2.13",
+    "postcss": "^8.2.14",
     "tailwindcss-dark-mode": "^1.1.7"
   }
 }
