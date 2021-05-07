@@ -5,7 +5,7 @@
   <strong>Understand Software Concepts</strong></a>
 </p>
 
-<a href="https://vercel.com?utm_source=amr2812&utm_campaign=oss">
+<a href="https://vercel.com?utm_source=softwareenvironment&utm_campaign=oss">
   <img src="/static/powered-by-vercel.svg" alt="powered by vercel"/>
 </a>
 

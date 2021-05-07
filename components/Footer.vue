@@ -8,7 +8,7 @@
       >
       with <a href="https://nuxtjs.org/">Nuxt</a>
     </h4>
-    <a href="https://vercel.com?utm_source=amr2812&utm_campaign=oss">
+    <a href="https://vercel.com?utm_source=softwareenvironment&utm_campaign=oss">
       <img
         src="/powered-by-vercel.svg"
         alt="powered by vercel"
@@ -18,6 +18,9 @@
 </template>
 
 <style scoped>
+footer {
+  @apply flex flex-col justify-center items-center mx-auto px-3;
+}
 a {
   @apply text-secondary;
 }
