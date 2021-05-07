@@ -13,13 +13,13 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sitemap": "^2.4.0",
     "@tailwindcss/typography": "^0.4.0",
-    "core-js": "^3.11.1",
+    "core-js": "^3.11.3",
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.0.5",
-    "@nuxtjs/tailwindcss": "^4.0.1",
-    "postcss": "^8.2.13",
+    "@nuxtjs/tailwindcss": "^4.1.0",
+    "postcss": "^8.2.14",
     "tailwindcss-dark-mode": "^1.1.7"
   }
 }
