@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-20 grid lg:grid-cols-3">
+  <section class="mt-20 grid md:grid-cols-2">
     <a
       target="_blank"
       href="https://github.com/Amr2812/software-environment-concepts/"
@@ -47,31 +47,6 @@
         </h3>
       </span>
     </button>
-    <a
-      href="#search"
-      class="btn flex flex-col items-center block px-4 py-2 text-gray-700 dark:text-gray-100 mb-6 text-left"
-    >
-      <svg
-        class="w-20 h-20"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-        ></path>
-      </svg>
-      <span class="mt-4">
-        <h3 class="text-2xl capitalize">
-          You can search for any expression or page by using the search bar down
-          below
-        </h3>
-      </span>
-    </a>
   </section>
 </template>
 
