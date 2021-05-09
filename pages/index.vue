@@ -5,7 +5,6 @@
       <Features />
       <hr />
     </div>
-    <Search />
     <hr />
     <Modules />
   </div>
