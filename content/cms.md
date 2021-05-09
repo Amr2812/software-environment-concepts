@@ -51,30 +51,30 @@ If it helps, think of the headless CMS like an author writing a book. The author
 
 **Pros**
 
-* Content is ready to be served on any device
+- Content is ready to be served on any device
 
-* With the headless API developers can worry less about content and more about presentation
+- With the headless API developers can worry less about content and more about presentation
 
-* Front-end agnostic (A headless CMS doesn’t care about where the content is going or how it’s going to be displayed. It simply serves it up allowing developers the freedom to use their preferred frameworks and tools.)
+- Front-end agnostic (A headless CMS doesn’t care about where the content is going or how it’s going to be displayed. It simply serves it up allowing developers the freedom to use their preferred frameworks and tools.)
 
-* Simply create content without worrying about being in a single system that contains everything
+- Simply create content without worrying about being in a single system that contains everything
 
 **Cons**
 
-* No content preview (Some systems allow you to build a preview integration but this does add additional upfront overhead.)
+- No content preview (Some systems allow you to build a preview integration but this does add additional upfront overhead.)
 
-* More upfront integration/configuration effort
+- More upfront integration/configuration effort
 
-* Developing a head/client(By “head/client”, we mean the output and displaying of the content that you have created (website, mobile application, etc).)
+- Developing a head/client(By “head/client”, we mean the output and displaying of the content that you have created (website, mobile application, etc).)
 
 **When to Use a Headless CMS**
 
 A headless CMS isn’t always the best choice, so you have to consider your circumstances carefully. We recommend using a headless CMS in the following cases:
 
-* Websites/web apps that are [Single-Page Apps](/frontend#single-page-applications-spa) built using [Js Frameworks](/frontend#javascript-framework) or [Libraries](frontend#javascript-library) such as Vue and React
+- Websites/web apps that are [Single-Page Apps](/frontend#single-page-applications-spa) built using [Js Frameworks](/frontend#javascript-framework) or [Libraries](frontend#javascript-library) such as Vue and React
 
-* Native mobile apps
+- Native mobile apps
 
-* Any environment in which you need to publish content across multiple platforms all at once
+- Any environment in which you need to publish content across multiple platforms all at once
 
-* When using a [static site generator](/frontend#static-site-generators-ssg)
+- When using a [static site generator](/frontend#static-site-generators-ssg)

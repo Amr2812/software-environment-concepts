@@ -6,13 +6,13 @@
     <input
       type="text"
       id="rounded-email"
-      class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-4 focus:ring-secondary focus:border-transparent"
+      class="rounded-lg w-full py-2 px-4 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-gray-400"
       placeholder="Search Expressions"
       v-model="query"
     />
     <ul class="mt-4">
       <li
-        v-for="(module, i) in articlesFromSearch"
+        v-for="(module, i) in modulesFromSearch"
         :key="i"
         class="capitalize text-primary-default font-bold mb-2"
       >
@@ -27,21 +27,20 @@ export default {
   data() {
     return {
       query: "",
-      articlesFromSearch: [],
+      modulesFromSearch: []
     };
   },
   watch: {
     async query(query) {
       if (!query) {
-        this.articlesFromSearch = [];
+        this.modulesFromSearch = [];
         return;
       }
-      this.articlesFromSearch = await this.$content()
+      this.modulesFromSearch = await this.$content()
         .only(["title", "slug"])
-        .limit(3)
         .search(query)
         .fetch();
-    },
-  },
+    }
+  }
 };
 </script>

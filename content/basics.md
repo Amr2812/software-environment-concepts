@@ -55,17 +55,7 @@ It is used mostly on the web and data transfer.
 
 Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
 
-XML is used mostly for [Android Development](/mobile#android) and web services like [RSS feed](#rss-feed) and [SOAP](/backend#soap).
-
-### RSS feed
-
-RSS stands for Really Simple Syndication.
-It allows you to syndicate your site content.
-It defines an easy way to share and view headlines and content.
-RSS files can be automatically updated.
-RSS allows personalized views for different sites.
-RSS is written in XML.
-RSS is mostly used for Blogs and News Websites.
+XML is used mostly for [Android Development](/mobile#android) and web services like RSS feed and [SOAP](/backend#soap).
 
 ### Domain Name
 
