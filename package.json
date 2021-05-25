@@ -14,7 +14,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "@tailwindcss/typography": "^0.4.0",
     "core-js": "^3.12.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.6"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.0.5",
