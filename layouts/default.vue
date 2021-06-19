@@ -28,7 +28,7 @@ export default {
 
 <style>
 .container {
-  @apply min-h-screen flex justify-center items-center mx-auto px-3;
+  @apply flex justify-center items-center max-w-screen-xl mx-auto px-3;
 }
 button,
 .btn {

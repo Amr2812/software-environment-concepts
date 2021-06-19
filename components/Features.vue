@@ -7,7 +7,7 @@
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="w-20 h-20"
+        class="w-12 h-12"
         viewBox="0 0 24 24"
         fill="currentColor"
       >
@@ -27,7 +27,7 @@
       @click="install"
     >
       <svg
-        class="w-20 h-20"
+        class="w-12 h-12"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"

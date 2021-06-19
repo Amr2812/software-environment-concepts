@@ -3,9 +3,7 @@
     <div v-if="!isPWA">
       <Intro />
       <Features />
-      <hr />
     </div>
-    <hr />
     <Modules />
   </div>
 </template>
