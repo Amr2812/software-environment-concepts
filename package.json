@@ -13,7 +13,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sitemap": "^2.4.0",
     "@tailwindcss/typography": "^0.4.1",
-    "core-js": "^3.16.4",
+    "core-js": "^3.17.2",
     "nuxt": "^2.15.6"
   },
   "devDependencies": {
