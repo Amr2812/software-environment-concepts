@@ -50,15 +50,9 @@ All changes happen through pull requests. Pull requests are the best way to prop
 This project is using the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) standard. Please follow these steps to ensure your
 commit messages are standardized:
 
-## Pull Requests
-
-1. Fork the repo and create your branch (usually named `patch-%the number of PRs you've already made%`) from `staging`.
-2. If you've added code that should be tested, add some test examples.
-3. Ensure to describe your pull request.
-
 ## Modules
 
-| Module                           | Description |
+| Module                           |    Status   |
 | :------------------------------- | :---------: |
 | [Basics](content/basics.md)      |      ✔      |
 | [Frontend](content/frontend.md)  |      ✔      |
