@@ -82,30 +82,22 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ---
 
-## 👨🏻‍💻 About the Author
-
-- 🎓 &nbsp; 15 y/o High School Student.
-- 🤔 &nbsp; Exploring new technologies and developing software solutions.
-- ✍️ &nbsp; Writting Blog Posts at Dev.to.
-
-<br/>
-
-<h3> 🤝🏻 Connect with Me </h3>
+<h3> 🤝🏻 Connect with the author </h3>
 
 <p align="center">
 <ul>
   <li>
-    <a href="https://twitter.com/AmrElmohamady2" target="_blank" >Twitter</a> 
-  </li> 
-  <li>
-    <a href="https://amr-elmohamady.netlify.app/" target="_blank" >Personal Website</a>
+    <a href="https://www.linkedin.com/in/amr-elmohamady" target="_blank" >LinkedIn</a>
   </li>
   <li>
-    <a href="mailto:ana.osama.elmohamady@gmail.com">Email</a>
+    <a href="mailto:amr.osama.elmohamady@gmail.com">Email</a>
   </li>
   <li>
     <a href="https://dev.to/amrelmohamady" target="_blank" >Blog</a>
   </li>
+  <li>
+    <a href="https://twitter.com/Amr__Elmohamady" target="_blank" >Twitter</a> 
+  </li> 
   <li>
     <a href="https://www.facebook.com/amr.elmohamady.1426/" target="_blank" >Facebook</a>
   </li> 
