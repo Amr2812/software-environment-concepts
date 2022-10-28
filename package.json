@@ -9,7 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.14.0",
+    "@nuxt/content": "^2.2.1",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sitemap": "^2.4.0",
     "@tailwindcss/typography": "^0.4.1",
